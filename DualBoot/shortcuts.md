@@ -5,6 +5,7 @@ If you have several disks (e.g. HDD and SSD), you may want to dispatch your file
 ### Create shortcuts
 
 The first thing to do is to create shortcuts. Suppose that you want to put your heavy files (Pictures, Movies, ...) on your HDD. You can create the corresponding folders on your HDD and put your files inside them. Then create symbolic links pointing to those folders and move them to your `/home/<username>` directory. You have to keep the right names (Music, etc) to keep the little icons on the image folders.
+If you want to change the default name of these folders, edit the `.config/user-dirs.dirs` file.
 
 However each time you reboot the links will be broken.
 
