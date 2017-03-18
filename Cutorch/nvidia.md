@@ -4,7 +4,7 @@ I followed the advanced instructions provided on this [Gist](https://gist.github
 
 ```
 sudo apt-get purge nvidia*
-sudo apt-get nvidia-367 nvidia-modprobe
+sudo apt-get install nvidia-367 nvidia-modprobe
 sudo lightdm stop
 sudo lightdm start
 ```
