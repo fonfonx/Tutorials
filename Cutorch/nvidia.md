@@ -2,12 +2,16 @@
 
 I followed the advanced instructions provided on this [Gist](https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07) but it failed. Therefore I run the following commands
 
+``` bash
+sudo apt purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt install nvidia-381
+#sudo systemctl stop lightdm
+#sudo systemctl start lightdm
 ```
-sudo apt-get purge nvidia*
-sudo apt-get nvidia-367 nvidia-modprobe
-sudo lightdm stop
-sudo lightdm start
-```
+
+This requires to disable secure boot. Reboot **without secure boot**.
 
 Check whether it works with
 ```
