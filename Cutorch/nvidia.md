@@ -1,6 +1,6 @@
 ## Nvidia drivers installation
 
-I followed the advanced instructions provided on this [Gist](https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07) but it failed. Therefore I run the following commands
+I followed the advanced instructions provided on this [Gist](https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07) but it failed. Therefore I ran the following commands
 
 ``` bash
 sudo apt purge nvidia*
@@ -23,7 +23,7 @@ You must see a table with driver informations.
 ### Cuda installation
 
 Go to [this page](https://developer.nvidia.com/cuda-downloads). Download the `.deb` file corresponding to your system and follow the instructions.
-Make sure to still use the driver "nvidia-381" after cuda installation (go to "Softwares and Updates", then "additional drivers") You may have to reboot (in insecure mode) your computer. Check that `nvidia-smi` is still working.
+**Make sure to still use the driver "nvidia-381" after Cuda installation** (go to "Softwares and Updates", then "additional drivers"). You may have to reboot (in insecure mode) your computer. Check that `nvidia-smi` is still working.
 
 In your `.bashrc` (or `.zshrc` ...) add the following lines
 

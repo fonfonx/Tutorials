@@ -4,5 +4,5 @@
 + [Partitioning](DualBoot/partitioning.md)
 + [HDD/SSD](DualBoot/shortcuts.md)
 
-## Cutorch
-+ [Nvidia Drivers](Cutorch/nvidia.md)
+## Torch on GPU
++ [Nvidia Drivers, CUDA and Torch installation](Cutorch/nvidia.md)
